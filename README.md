@@ -22,7 +22,7 @@
 
 ![image](https://github.com/yoogus/ProjectDBCompany/assets/110523242/21746875-f1da-49ca-b4ed-8df907694663)
 
-- Показывает сотрудника и его проекты которые взяты в разработку и его изменения
+- Показывает сотрудника, его проекты которые взяты в разработку изменения его проекта
 
 ![image](https://github.com/yoogus/ProjectDBCompany/assets/110523242/77203a9b-a5fc-44da-8568-d4b8f41e0806)
 
