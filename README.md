@@ -8,7 +8,7 @@
 ### 📚 Пример триггеров
 
 - Отслеживает изменения в таблице Task и при изменении\добавлении\удаление задач изменения будут записаны в таблицу TaskProjectHistory
-`ALTER TRIGGER [dbo].[trg_TaskProjectHistory]
+` ALTER TRIGGER [dbo].[trg_TaskProjectHistory]
 ON [dbo].[Task]
 AFTER INSERT, UPDATE
 AS
@@ -22,4 +22,4 @@ BEGIN
     INSERT INTO [Company].[dbo].[TaskProjectHistory] (Action, TaskID, ProjectID, Description, Status)
     SELECT @action, inserted.ID, inserted.ProjectID, inserted.Description, inserted.Status
     FROM inserted
-END`
+END `
